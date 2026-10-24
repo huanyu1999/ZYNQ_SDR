@@ -287,8 +287,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -451,6 +451,22 @@
     [
       "efbda6de-6110-4a9e-bd9d-db076f7d005a",
       "ZYNQ_JTAG"
+    ],
+    [
+      "bae29eb1-333c-4efa-89a6-9f1fbb6927d9",
+      "ZYNQ_Bank"
+    ],
+    [
+      "f7df7de1-a6ac-497f-9eae-e23a4f247537",
+      "ZYNQ_Storage"
+    ],
+    [
+      "f4abe446-113e-49ff-b67f-aaab4fc35bbf",
+      "ZYNQ_Ethernet"
+    ],
+    [
+      "5b8bd14a-94eb-4bfb-90f3-3427f4f2a59d",
+      "ZYNQ_USB"
     ]
   ],
   "text_variables": {},

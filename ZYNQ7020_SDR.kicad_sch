@@ -52,6 +52,98 @@
 		)
 	)
 	(sheet
+		(at 12.7 96.52)
+		(size 33.02 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b8bd14a-94eb-4bfb-90f3-3427f4f2a59d")
+		(property "Sheetname" "ZYNQ_USB"
+			(at 12.7 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ZYNQ_USB.kicad_sch"
+			(at 12.7 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 96.52)
+		(size 58.42 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bae29eb1-333c-4efa-89a6-9f1fbb6927d9")
+		(property "Sheetname" "ZYNQ_Bank"
+			(at 60.96 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ZYNQ_Bank.kicad_sch"
+			(at 60.96 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 60.96 41.91)
 		(size 45.72 41.91)
 		(exclude_from_sim no)
@@ -139,6 +231,98 @@
 			(project "ZYNQ7020_SDR"
 				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 99.06)
+		(size 66.04 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f4abe446-113e-49ff-b67f-aaab4fc35bbf")
+		(property "Sheetname" "ZYNQ_Ethernet"
+			(at 200.66 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ZYNQ_Ethernet.kicad_sch"
+			(at 200.66 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 99.06)
+		(size 53.34 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7df7de1-a6ac-497f-9eae-e23a4f247537")
+		(property "Sheetname" "ZYNQ_Storage"
+			(at 134.62 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ZYNQ_Storage.kicad_sch"
+			(at 134.62 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
+					(page "6")
 				)
 			)
 		)
