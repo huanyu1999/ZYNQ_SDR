@@ -1,0 +1,7 @@
+# KiCad local state and generated files
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# Project backups
+/ZYNQ7020_SDR-backups/
