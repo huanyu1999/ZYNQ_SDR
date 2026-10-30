@@ -5,3 +5,6 @@ fp-info-cache
 
 # Project backups
 /ZYNQ7020_SDR-backups/
+
+# Temporary render output
+/tmp/
