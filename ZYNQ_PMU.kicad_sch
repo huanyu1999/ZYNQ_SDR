@@ -4,5 +4,1566 @@
 	(generator_version "10.0")
 	(uuid "0092fe8f-5fbb-4fde-8314-89861d16e14d")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "ZYNQ7020_SDR:MP2145GD-Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MP2145GD-Z"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MPS(芯源)"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MP2145GD-Z"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C132200"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC-DC Converters"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MP2145GD-Z_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 11.43)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "RAMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "MODE/VCON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 15.24 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 15.24 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ZYNQ7020_SDR:TPS51200DRCR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS51200DRCR"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:WSON-10_L3.0-W3.0-P0.50-BL-EP"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-AC-DC-Converters_TI_TPS51200DRCR_TPS51200DRCR_C34771.html"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS51200DRCR"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C34771"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC-DC Converters"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS51200DRCR_0_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -11.43 7.62)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "REFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "VLDOIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "VOSNS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "REFOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 6.35 180)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:MP2145GD-Z")
+		(at 62.23 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a927d23-0411-48b7-9071-dc541fc8113f")
+		(property "Reference" "U13"
+			(at 80.01 79.9398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2145GD-Z"
+			(at 80.01 82.4798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP2145GD-Z"
+			(at 62.23 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C132200"
+			(at 62.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "9609f114-b3e8-403c-b4d2-c4ce2d52da8c")
+		)
+		(pin "10"
+			(uuid "dad447b4-bf2a-467d-a351-1ca795a47c08")
+		)
+		(pin "8"
+			(uuid "52d4f221-fc11-4d5c-9511-9b498f3f4c0b")
+		)
+		(pin "2"
+			(uuid "02ab5d5c-6983-4a95-9775-2e0fac7ab98a")
+		)
+		(pin "7"
+			(uuid "b160dda4-d364-4020-b6f2-0c26c385fc37")
+		)
+		(pin "6"
+			(uuid "f46930ae-2b5d-4521-b8c3-c7826ac36fa6")
+		)
+		(pin "4"
+			(uuid "e7ee160d-df95-4ad9-b28e-c261df7e67af")
+		)
+		(pin "5"
+			(uuid "3551b03d-f7fd-43ed-9ca0-9053de6ee0fd")
+		)
+		(pin "3"
+			(uuid "f3b4c1c2-80b9-45fc-9db0-f1d2e8ae47bf")
+		)
+		(pin "1"
+			(uuid "c13d66d3-4fc9-49bc-94ec-e5e76fa33464")
+		)
+		(pin "13"
+			(uuid "195f83d3-30f8-488b-9d7a-1a6b692d8c96")
+		)
+		(pin "11"
+			(uuid "a2b3b1b5-d018-4ab9-bc3e-4d4f7fe98ca9")
+		)
+		(pin "12"
+			(uuid "9e2447a4-7fe6-4790-a1d0-0396495c3d2b")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:MP2145GD-Z")
+		(at 109.22 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3915803b-694e-4c90-a057-879bce77312a")
+		(property "Reference" "U10"
+			(at 127 38.0298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2145GD-Z"
+			(at 127 40.5698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+			(at 109.22 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+			(at 109.22 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP2145GD-Z"
+			(at 109.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C132200"
+			(at 109.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "ac2f099d-fe3e-41bc-b711-52cf70d75f51")
+		)
+		(pin "10"
+			(uuid "5e366382-0013-43b2-9851-cddec55bb509")
+		)
+		(pin "8"
+			(uuid "c6c016f6-c6ca-4ec5-b01c-94d2e81d4af2")
+		)
+		(pin "2"
+			(uuid "9de890aa-f708-4bd5-90c1-c9bf7b7f8d79")
+		)
+		(pin "7"
+			(uuid "d95c5134-9107-468c-ae9a-cf4d352b0a76")
+		)
+		(pin "6"
+			(uuid "bbe32867-5e2f-4494-b9c6-7ba42ff4cb76")
+		)
+		(pin "4"
+			(uuid "d7c107e7-6ece-461a-b9be-95411d3a483c")
+		)
+		(pin "5"
+			(uuid "0a336685-fc8c-4b83-a11d-220a628bb1f6")
+		)
+		(pin "3"
+			(uuid "0c954caa-a5db-41db-8f38-eec4e54ef729")
+		)
+		(pin "1"
+			(uuid "c0d009ed-e16d-4081-a2ae-416c6b792526")
+		)
+		(pin "13"
+			(uuid "bc45a715-6c82-4294-8e04-f5c7e037117c")
+		)
+		(pin "11"
+			(uuid "e1011793-1a17-4c13-bfbe-db00dfee5ad8")
+		)
+		(pin "12"
+			(uuid "7b98561a-755a-442e-87da-fdfe38a5644e")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:MP2145GD-Z")
+		(at 62.23 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684b9f9d-28c2-4849-91ce-9309fc8dd32d")
+		(property "Reference" "U9"
+			(at 80.01 38.0298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2145GD-Z"
+			(at 80.01 40.5698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+			(at 62.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 62.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP2145GD-Z"
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C132200"
+			(at 62.23 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "ae4ea500-8936-4348-8fe6-ec17229c19dd")
+		)
+		(pin "10"
+			(uuid "acd99ba7-b618-48f6-b2be-51275438d57e")
+		)
+		(pin "8"
+			(uuid "ccbf60db-2b14-4b16-ba02-bf60f3f57932")
+		)
+		(pin "2"
+			(uuid "f7d3926d-76bc-4281-baf3-b53650d8206d")
+		)
+		(pin "7"
+			(uuid "3fac5d5e-5085-4201-b044-b0b51d4c31dd")
+		)
+		(pin "6"
+			(uuid "68b87109-72b4-46a9-a797-97db990100ff")
+		)
+		(pin "4"
+			(uuid "ca0dfa3c-a986-4636-874a-43ebc4c4d9f2")
+		)
+		(pin "5"
+			(uuid "c843a610-1d2e-4dd8-bec2-d333a6c371f8")
+		)
+		(pin "3"
+			(uuid "3eb0ff92-8de1-429b-97b6-24ca488690f7")
+		)
+		(pin "1"
+			(uuid "3e42fe76-1018-4e9d-93b4-1cddb03678ce")
+		)
+		(pin "13"
+			(uuid "645949c3-09e3-4569-bd6f-7316a72e6e1f")
+		)
+		(pin "11"
+			(uuid "9376c005-c438-4333-9d5d-bfd33d9949d7")
+		)
+		(pin "12"
+			(uuid "c0c3dd2d-0f86-4ab8-baab-33ec3c9aceec")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:MP2145GD-Z")
+		(at 199.39 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aaa46bb-3cd2-4215-93ad-a829395e1201")
+		(property "Reference" "U12"
+			(at 217.17 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2145GD-Z"
+			(at 217.17 39.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+			(at 199.39 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP2145GD-Z"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C132200"
+			(at 199.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "1d3f776e-a903-4235-8495-3cb394d9b4f8")
+		)
+		(pin "10"
+			(uuid "bf94ec35-351c-48a3-91cc-e616f6fa7db3")
+		)
+		(pin "8"
+			(uuid "c0e80344-4d48-4278-8fbf-8cfeb9e6248e")
+		)
+		(pin "2"
+			(uuid "4b1f8abe-eb56-494b-85d0-f38695c34f44")
+		)
+		(pin "7"
+			(uuid "ade8c7b7-1b77-4bad-9c17-62a36e5a0468")
+		)
+		(pin "6"
+			(uuid "7075affa-b6c1-4fad-8b7d-52dad4ee312b")
+		)
+		(pin "4"
+			(uuid "6c95488d-2a44-47aa-a8b9-fc3bf73a2215")
+		)
+		(pin "5"
+			(uuid "f84a95cb-fa6d-42c4-bcfd-a86ab6d27249")
+		)
+		(pin "3"
+			(uuid "21589459-b6ec-4e47-afd3-b45880e067a6")
+		)
+		(pin "1"
+			(uuid "5e54ec7b-86c6-4626-b435-703ec5492a05")
+		)
+		(pin "13"
+			(uuid "30bd8bfb-667f-440d-8f05-4ed8e5efe3e3")
+		)
+		(pin "11"
+			(uuid "148939a6-6871-4bca-8948-3fc47e8ef109")
+		)
+		(pin "12"
+			(uuid "3340d50a-e9a9-4748-a659-4d1a8ce018cc")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:TPS51200DRCR")
+		(at 64.77 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af2bc2a7-9208-4e7e-a9a5-05a23cdd33fe")
+		(property "Reference" "U14"
+			(at 64.77 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS51200DRCR"
+			(at 64.77 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WSON-10_L3.0-W3.0-P0.50-BL-EP"
+			(at 64.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-AC-DC-Converters_TI_TPS51200DRCR_TPS51200DRCR_C34771.html"
+			(at 64.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 64.77 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS51200DRCR"
+			(at 64.77 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C34771"
+			(at 64.77 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b8d77297-10e6-49d8-808b-1b0a2db7fb82")
+		)
+		(pin "2"
+			(uuid "41061fd8-6e48-4a0b-9379-7bd7099e4b95")
+		)
+		(pin "10"
+			(uuid "5662a409-9251-4991-b4e8-7ddd49ce439d")
+		)
+		(pin "1"
+			(uuid "65825fdd-bf07-495c-be42-2c0dc344c343")
+		)
+		(pin "8"
+			(uuid "5f312f12-8c9a-44b9-be6a-f02ef796a300")
+		)
+		(pin "9"
+			(uuid "dc6e2068-6149-4d37-8021-47e5612e2625")
+		)
+		(pin "4"
+			(uuid "956b3202-77aa-49bc-80de-9e8718d90674")
+		)
+		(pin "7"
+			(uuid "2fa71760-0b75-43a1-9559-cab994b5d917")
+		)
+		(pin "6"
+			(uuid "06e65be6-9b79-42e3-9361-2704ef6d2380")
+		)
+		(pin "5"
+			(uuid "68050e60-e5b6-48b5-a7d8-a2654f0d43c3")
+		)
+		(pin "11"
+			(uuid "950e7e44-f852-47e3-9a8b-4a06d830a541")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZYNQ7020_SDR:MP2145GD-Z")
+		(at 156.21 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c209a4e9-f98e-458a-bd3c-4c7fffad62b2")
+		(property "Reference" "U11"
+			(at 173.99 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2145GD-Z"
+			(at 173.99 39.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-12_L3.0-W2.0_MP2145GD-Z"
+			(at 156.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MPS_MP2145GD-Z_MP2145GD-Z_C132200.html"
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 156.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MP2145GD-Z"
+			(at 156.21 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C132200"
+			(at 156.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "25bfde56-224f-47a9-8f65-87c13e6d1a08")
+		)
+		(pin "10"
+			(uuid "910236c0-ac36-4b22-b4ee-04bb9bd0c654")
+		)
+		(pin "8"
+			(uuid "272881f2-17d7-4a1b-ad95-08ee4269a903")
+		)
+		(pin "2"
+			(uuid "fe4f33d2-7498-469b-bd70-0f52cd1ae640")
+		)
+		(pin "7"
+			(uuid "075a7350-a0f3-4243-b561-99019589e1e4")
+		)
+		(pin "6"
+			(uuid "db8a4f6f-8fcd-4ae6-80d9-4210685fd546")
+		)
+		(pin "4"
+			(uuid "9356243e-ef0d-471f-b6f5-499dacbf6e62")
+		)
+		(pin "5"
+			(uuid "2d05d347-617b-45c4-a142-fb837c7ddd3b")
+		)
+		(pin "3"
+			(uuid "fd88f747-c78c-43e5-a717-3ebcba67c120")
+		)
+		(pin "1"
+			(uuid "c7a85cad-11cb-4ce0-b1fd-87d573790fb5")
+		)
+		(pin "13"
+			(uuid "18b40e9e-a64a-49a7-afdd-0e20fe67990c")
+		)
+		(pin "11"
+			(uuid "b0e551c5-b607-46bd-8903-ee83b57e0a3c")
+		)
+		(pin "12"
+			(uuid "d6109845-a7dd-49b6-bdba-932992e2a4e7")
+		)
+		(instances
+			(project "ZYNQ7020_SDR"
+				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412/74918e1a-eb57-420e-9b26-fc8979115356"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

@@ -432,7 +432,7 @@
         "uuid": "3a68e3c4-732f-4f36-849e-450e7f6f5412"
       }
     ],
-    "used_designators": "#PWR1-3,R1-3,U1-3",
+    "used_designators": "#PWR1-31,C1-12,R1-15,U1-15,Y1",
     "variants": []
   },
   "sheets": [
@@ -453,28 +453,28 @@
       "ZYNQ_PWR_BANK"
     ],
     [
-      "3e5f5d84-bb50-4bae-b12f-5309291bddcb",
-      "ZYNQ_DDR3"
-    ],
-    [
-      "efbda6de-6110-4a9e-bd9d-db076f7d005a",
-      "ZYNQ_JTAG"
-    ],
-    [
       "bae29eb1-333c-4efa-89a6-9f1fbb6927d9",
       "ZYNQ_PL_Bank"
     ],
     [
       "f4abe446-113e-49ff-b67f-aaab4fc35bbf",
-      "ZYNQ_PL_ETH"
+      "ZYNQ_PS_ETH"
     ],
     [
       "7220b440-3e17-4b96-adcc-c30ef3a7c1b7",
       "ZYNQ_PS_BANK"
     ],
     [
+      "3e5f5d84-bb50-4bae-b12f-5309291bddcb",
+      "ZYNQ_DDR3"
+    ],
+    [
       "f9fafe9c-4ce3-4d73-be49-33280a5ea425",
       "ZYNQ_USB_PHY"
+    ],
+    [
+      "efbda6de-6110-4a9e-bd9d-db076f7d005a",
+      "ZYNQ_JTAG"
     ],
     [
       "715e9075-95da-4f80-a0cd-391b9912c48e",

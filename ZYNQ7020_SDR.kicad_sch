@@ -46,7 +46,7 @@
 		(instances
 			(project "ZYNQ7020_SDR"
 				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
-					(page "4")
+					(page "8")
 				)
 			)
 		)
@@ -92,7 +92,7 @@
 		(instances
 			(project "ZYNQ7020_SDR"
 				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
@@ -368,7 +368,7 @@
 		(instances
 			(project "ZYNQ7020_SDR"
 				(path "/3a68e3c4-732f-4f36-849e-450e7f6f5412"
-					(page "4")
+					(page "11")
 				)
 			)
 		)
@@ -389,7 +389,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f4abe446-113e-49ff-b67f-aaab4fc35bbf")
-		(property "Sheetname" "ZYNQ_PL_ETH"
+		(property "Sheetname" "ZYNQ_PS_ETH"
 			(at 200.66 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -400,7 +400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ZYNQ_PL_ETH.kicad_sch"
+		(property "Sheetfile" "ZYNQ_PS_ETH.kicad_sch"
 			(at 200.66 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)

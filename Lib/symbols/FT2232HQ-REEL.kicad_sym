@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "FT2232HQ-REEL"
-			(at 0 -45.72 0)
+			(at 26.924 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:QFN-64_L9.0-W9.0-P0.50-TL-EP4.3"
-			(at 0 -48.26 0)
+			(at 0.254 -89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_Future-Designs_FT2232HQ-REEL_Future-Designs-FT2232HQ-REEL_C193662.html"
-			(at 0 -50.8 0)
+			(at 0.254 -92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Manufacturer" "FTDI(飞特帝亚)"
-			(at 0 -53.34 0)
+			(at 5.842 -78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "MPN" "FT2232HQ-REEL"
-			(at 0 -55.88 0)
+			(at 5.08 -82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "LCSC Part" "C193662"
-			(at 0 -58.42 0)
+			(at 17.526 -81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -107,8 +107,8 @@
 		)
 		(symbol "FT2232HQ-REEL_0_1"
 			(rectangle
-				(start -13.97 43.18)
-				(end 13.97 -43.18)
+				(start -21.59 43.18)
+				(end 27.94 -60.96)
 				(stroke
 					(width 0)
 					(type default)
@@ -117,19 +117,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -12.7 41.91)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
-				(at -16.51 38.1 0)
+				(at -2.54 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -147,7 +136,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 35.56 0)
+				(at -24.13 -34.29 0)
 				(length 2.54)
 				(name "OSCI"
 					(effects
@@ -165,7 +154,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 33.02 0)
+				(at -24.13 -39.37 0)
 				(length 2.54)
 				(name "OSCO"
 					(effects
@@ -183,7 +172,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 30.48 0)
+				(at -10.16 45.72 270)
 				(length 2.54)
 				(name "VPHY"
 					(effects
@@ -201,7 +190,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 27.94 0)
+				(at 0 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -219,7 +208,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 25.4 0)
+				(at -24.13 7.62 0)
 				(length 2.54)
 				(name "REF"
 					(effects
@@ -237,7 +226,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 22.86 0)
+				(at -24.13 25.4 0)
 				(length 2.54)
 				(name "DM"
 					(effects
@@ -255,7 +244,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 20.32 0)
+				(at -24.13 21.59 0)
 				(length 2.54)
 				(name "DP"
 					(effects
@@ -273,7 +262,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 17.78 0)
+				(at -7.62 45.72 270)
 				(length 2.54)
 				(name "VPLL"
 					(effects
@@ -291,7 +280,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 15.24 0)
+				(at -10.16 -63.5 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -309,7 +298,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 12.7 0)
+				(at 2.54 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -327,7 +316,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 10.16 0)
+				(at -2.54 45.72 270)
 				(length 2.54)
 				(name "VCORE"
 					(effects
@@ -345,7 +334,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 7.62 0)
+				(at -24.13 -44.45 0)
 				(length 2.54)
 				(name "TEST"
 					(effects
@@ -363,7 +352,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 5.08 0)
+				(at -24.13 -1.27 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -381,7 +370,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 2.54 0)
+				(at 5.08 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -399,7 +388,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 0 0)
+				(at 30.48 36.83 180)
 				(length 2.54)
 				(name "ADBUS0"
 					(effects
@@ -417,7 +406,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -2.54 0)
+				(at 30.48 34.29 180)
 				(length 2.54)
 				(name "ADBUS1"
 					(effects
@@ -435,7 +424,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -5.08 0)
+				(at 30.48 31.75 180)
 				(length 2.54)
 				(name "ADBUS2"
 					(effects
@@ -453,7 +442,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -7.62 0)
+				(at 30.48 29.21 180)
 				(length 2.54)
 				(name "ADBUS3"
 					(effects
@@ -471,7 +460,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -10.16 0)
+				(at 8.89 45.72 270)
 				(length 2.54)
 				(name "VCCIO"
 					(effects
@@ -489,7 +478,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -12.7 0)
+				(at 30.48 26.67 180)
 				(length 2.54)
 				(name "ADBUS4"
 					(effects
@@ -507,7 +496,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -15.24 0)
+				(at 30.48 24.13 180)
 				(length 2.54)
 				(name "ADBUS5"
 					(effects
@@ -525,7 +514,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -17.78 0)
+				(at 30.48 21.59 180)
 				(length 2.54)
 				(name "ADBUS6"
 					(effects
@@ -543,7 +532,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -20.32 0)
+				(at 30.48 19.05 180)
 				(length 2.54)
 				(name "ADBUS7"
 					(effects
@@ -561,7 +550,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -22.86 0)
+				(at 7.62 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -579,7 +568,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -25.4 0)
+				(at 30.48 15.24 180)
 				(length 2.54)
 				(name "ACBUS0"
 					(effects
@@ -597,7 +586,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -27.94 0)
+				(at 30.48 12.7 180)
 				(length 2.54)
 				(name "ACBUS1"
 					(effects
@@ -615,7 +604,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -30.48 0)
+				(at 30.48 10.16 180)
 				(length 2.54)
 				(name "ACBUS2"
 					(effects
@@ -633,7 +622,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -33.02 0)
+				(at 30.48 7.62 180)
 				(length 2.54)
 				(name "ACBUS3"
 					(effects
@@ -651,7 +640,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -35.56 0)
+				(at 30.48 5.08 180)
 				(length 2.54)
 				(name "ACBUS4"
 					(effects
@@ -669,7 +658,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -38.1 0)
+				(at 11.43 45.72 270)
 				(length 2.54)
 				(name "VCCIO"
 					(effects
@@ -687,7 +676,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -40.64 0)
+				(at 30.48 2.54 180)
 				(length 2.54)
 				(name "ACBUS5"
 					(effects
@@ -705,7 +694,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -40.64 180)
+				(at 30.48 -2.54 180)
 				(length 2.54)
 				(name "ACBUS6"
 					(effects
@@ -723,7 +712,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -38.1 180)
+				(at 30.48 0 180)
 				(length 2.54)
 				(name "ACBUS7"
 					(effects
@@ -741,7 +730,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -35.56 180)
+				(at 10.16 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -759,7 +748,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -33.02 180)
+				(at 30.48 -55.88 180)
 				(length 2.54)
 				(name "~{SUSPEND}"
 					(effects
@@ -777,7 +766,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -30.48 180)
+				(at 0 45.72 270)
 				(length 2.54)
 				(name "VCORE"
 					(effects
@@ -795,7 +784,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -27.94 180)
+				(at 30.48 -6.35 180)
 				(length 2.54)
 				(name "BDBUS0"
 					(effects
@@ -813,7 +802,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -25.4 180)
+				(at 30.48 -8.89 180)
 				(length 2.54)
 				(name "BDBUS1"
 					(effects
@@ -831,7 +820,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -22.86 180)
+				(at 30.48 -11.43 180)
 				(length 2.54)
 				(name "BDBUS2"
 					(effects
@@ -849,7 +838,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -20.32 180)
+				(at 30.48 -13.97 180)
 				(length 2.54)
 				(name "BDBUS3"
 					(effects
@@ -867,7 +856,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -17.78 180)
+				(at 13.97 45.72 270)
 				(length 2.54)
 				(name "VCCIO"
 					(effects
@@ -885,7 +874,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -15.24 180)
+				(at 30.48 -16.51 180)
 				(length 2.54)
 				(name "BDBUS4"
 					(effects
@@ -903,7 +892,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -12.7 180)
+				(at 30.48 -19.05 180)
 				(length 2.54)
 				(name "BDBUS5"
 					(effects
@@ -921,7 +910,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -10.16 180)
+				(at 30.48 -21.59 180)
 				(length 2.54)
 				(name "BDBUS6"
 					(effects
@@ -939,7 +928,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -7.62 180)
+				(at 30.48 -24.13 180)
 				(length 2.54)
 				(name "BDBUS7"
 					(effects
@@ -957,7 +946,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -5.08 180)
+				(at 12.7 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -975,7 +964,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -2.54 180)
+				(at 30.48 -29.21 180)
 				(length 2.54)
 				(name "BCBUS0"
 					(effects
@@ -993,7 +982,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 0 180)
+				(at -24.13 33.02 0)
 				(length 2.54)
 				(name "VREGOUT"
 					(effects
@@ -1011,7 +1000,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 2.54 180)
+				(at -24.13 38.1 0)
 				(length 2.54)
 				(name "VREGIN"
 					(effects
@@ -1029,7 +1018,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 5.08 180)
+				(at 15.24 -63.5 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1047,7 +1036,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 7.62 180)
+				(at 30.48 -31.75 180)
 				(length 2.54)
 				(name "BCBUS1"
 					(effects
@@ -1065,7 +1054,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 10.16 180)
+				(at 30.48 -34.29 180)
 				(length 2.54)
 				(name "BCBUS2"
 					(effects
@@ -1083,7 +1072,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 12.7 180)
+				(at 30.48 -36.83 180)
 				(length 2.54)
 				(name "BCBUS3"
 					(effects
@@ -1101,7 +1090,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 15.24 180)
+				(at 30.48 -39.37 180)
 				(length 2.54)
 				(name "BCBUS4"
 					(effects
@@ -1119,7 +1108,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 17.78 180)
+				(at 16.51 45.72 270)
 				(length 2.54)
 				(name "VCCIO"
 					(effects
@@ -1137,7 +1126,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 20.32 180)
+				(at 30.48 -41.91 180)
 				(length 2.54)
 				(name "BCBUS5"
 					(effects
@@ -1155,7 +1144,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 22.86 180)
+				(at 30.48 -44.45 180)
 				(length 2.54)
 				(name "BCBUS6"
 					(effects
@@ -1173,7 +1162,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 25.4 180)
+				(at 30.48 -46.99 180)
 				(length 2.54)
 				(name "BCBUS7"
 					(effects
@@ -1191,7 +1180,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 27.94 180)
+				(at 30.48 -53.34 180)
 				(length 2.54)
 				(name "~{PWREN}"
 					(effects
@@ -1209,7 +1198,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 30.48 180)
+				(at -24.13 -30.48 0)
 				(length 2.54)
 				(name "EEDATA"
 					(effects
@@ -1227,7 +1216,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 33.02 180)
+				(at -24.13 -27.94 0)
 				(length 2.54)
 				(name "EECLK"
 					(effects
@@ -1245,7 +1234,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 35.56 180)
+				(at -24.13 -25.4 0)
 				(length 2.54)
 				(name "EECS"
 					(effects
@@ -1263,7 +1252,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 38.1 180)
+				(at 2.54 45.72 270)
 				(length 2.54)
 				(name "VCORE"
 					(effects
@@ -1281,7 +1270,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 40.64 180)
+				(at 17.78 -63.5 90)
 				(length 2.54)
 				(name "EP"
 					(effects
